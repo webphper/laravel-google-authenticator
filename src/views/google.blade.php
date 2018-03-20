@@ -155,10 +155,10 @@
 	    	<div class="appdownloadcode">
 				<ul>
 					<li>
-						<img src="/img/ios.png" width="280" height="280" /><br />Ios扫描下载
+						<img src="/imgages/google/ios.png" width="280" height="280" /><br />Ios扫描下载
 					</li>
 					<li>
-						<img src="/img/android.png" width="280" height="280" /><br />安卓扫描下载
+						<img src="/imgages/google/android.png" width="280" height="280" /><br />安卓扫描下载
 					</li>
 				</ul>
 			</div>
