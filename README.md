@@ -1,4 +1,5 @@
-Google 身份验证器与两步验证功能配合，可在您登录 Google 帐户时为您平添一重安全保障。启用两步验证之后，当您登录帐户时，需要提供密码和此应用生成的验证码。配置完成后，无需网络连接或蜂窝连接即可获得验证码。
+Google 身份验证器与两步验证功能配合，可在您登录 Google 帐户时为您平添一重安全保障。启用两步验证之后，当您登录帐户时，需要提供密码和此应用生成的验证码。配置完成后，无需网络连接或蜂窝连接即可获得验证码。APP中使用如下：
+![手机使用google authenticator](https://github.com/earnp/laravel-google-authenticator/blob/master/src/images/google/authenticator.jpg)
 
 # 为什么使用两步认证
 1. 相对于验证码，安全很多；几乎是不会存在破解的方法
@@ -100,6 +101,8 @@ else
     return view('login.google.google', ['createSecret' => $createSecret,"parameter" => $parameter]);
 }
 ```
+我们来看一下我们的绑卡界面：
+![使用laravel-google-authenticator 拓展包为你的网站打造一个动态手机令牌](https://github.com/earnp/laravel-google-authenticator/blob/master/src/images/google/bindcard.jpg)
 
 # 使用与帮助
 
